@@ -1,39 +1,80 @@
 # PostCSS Imperial [![Build Status][ci-img]][ci]
-
 [PostCSS] plugin to support lengths in Imperial and customary units.
+
+Inspired by [Are Imperial Measurements outdated? | Number Hub with Matt Parker | Head Squeeze](https://www.youtube.com/watch?v=r7x-RGfd0Yk).
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/cbas/postcss-imperial.svg
 [ci]:      https://travis-ci.org/cbas/postcss-imperial
 
+## Input
 ```css
-.foo {
-  /* Input example */
-  height: 1cubit;
-  width: 2shaftments;
-  background-position: 2digits 1palm;
-  padding: 2hands 3sticks;
-  border-width: 5barleycorns;
-  font-size: 2poppyseeds;
+.poster {
+  height: 2ft;
+  width: 1yd;
 }
 ```
 
+## Output
 ```css
-.foo {
-  /* Output example */
-  height: 18in;
-  width: 12in;
-  background-position: 1.5in 3in;
-  padding: 8in 6in;
-  border-width: 10pc;
-  font-size: 12pt;
+.poster {
+  height: 24in;
+  width: 36in;
 }
 ```
 
 ## Usage
-
 ```js
 postcss([ require('postcss-imperial') ])
 ```
 
 See [PostCSS] docs for examples for your environment.
+
+## Supported Units
+- thou (th, mil)
+- twip
+- point (pt)
+- line, poppyseed
+- pica (pc)
+- barleycorn
+- digit
+- finger
+- inch (in)
+- stick
+- nail
+- palm
+- hand
+- shaftment
+- link
+- span
+- foot (ft)
+- cubit
+- pace
+- yard (yd)
+- ell
+- grade, step
+- fathom (ftm)
+- rod, pole, perch
+- rope
+- chain
+- ramsdenschain
+- shackle
+- skein
+- cable
+- furlong (fur)
+- romanmile
+- mile (mi)
+- nauticalmile
+- league (lea)
+- spindle
+
+### Notes
+1. Plurals are supported for convenience.
+1. The `ch` abbreviation is not supported since it already exists in CSS.
+
+## Unit Relations
+![Unit graph](https://upload.wikimedia.org/wikipedia/commons/e/eb/English_length_units_graph.svg)
+
+## References
+- https://en.wikipedia.org/wiki/English_units#Length
+- https://en.wikipedia.org/wiki/Imperial_units#Length

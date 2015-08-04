@@ -8,13 +8,25 @@
 
 ```css
 .foo {
-    /* Input example */
+  /* Input example */
+  height: 1cubit;
+  width: 2shaftments;
+  background-position: 2digits 1palm;
+  padding: 2hands 3sticks;
+  border-width: 5barleycorns;
+  font-size: 2poppyseeds;
 }
 ```
 
 ```css
 .foo {
   /* Output example */
+  height: 18in;
+  width: 12in;
+  background-position: 1.5in 3in;
+  padding: 8in 6in;
+  border-width: 10pc;
+  font-size: 12pt;
 }
 ```
 

@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/cbas/postcss-imperial",
   "dependencies": {
+    "array-includes": "^2.0.0",
+    "array.prototype.find": "^1.0.0",
     "postcss": "^4.1.13"
   },
   "devDependencies": {

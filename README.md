@@ -3,6 +3,8 @@
 
 Inspired by [Are Imperial Measurements outdated? | Number Hub with Matt Parker | Head Squeeze](https://www.youtube.com/watch?v=r7x-RGfd0Yk).
 
+![Unit relations graph](https://upload.wikimedia.org/wikipedia/commons/c/c8/English_length_units_graph.png)
+
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/cbas/postcss-imperial.svg
 [ci]:      https://travis-ci.org/cbas/postcss-imperial
@@ -71,9 +73,6 @@ See [PostCSS] docs for examples for your environment.
 ### Notes
 1. Plurals are supported for convenience.
 1. The `ch` abbreviation is not supported since it already exists in CSS.
-
-## Unit Relations
-![Unit graph](https://upload.wikimedia.org/wikipedia/commons/c/c8/English_length_units_graph.png)
 
 ## References
 - https://en.wikipedia.org/wiki/English_units#Length

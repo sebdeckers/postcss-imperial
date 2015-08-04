@@ -73,7 +73,7 @@ See [PostCSS] docs for examples for your environment.
 1. The `ch` abbreviation is not supported since it already exists in CSS.
 
 ## Unit Relations
-![Unit graph](https://upload.wikimedia.org/wikipedia/commons/e/eb/English_length_units_graph.svg)
+![Unit graph](https://upload.wikimedia.org/wikipedia/commons/c/c8/English_length_units_graph.png)
 
 ## References
 - https://en.wikipedia.org/wiki/English_units#Length
